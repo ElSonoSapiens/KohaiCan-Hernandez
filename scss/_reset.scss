@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,600;1,600&display=swap');
+
+* {
+  font-family: 'Nunito Sans', sans-serif;
+  @include reset(62.5%, 0,0);  
+}
+
+#logo {
+  width: 10rem; }
+

@@ -1,0 +1,30 @@
+/*-------------------- NAVBAR --------------------*/
+.aLogo:hover {
+  width: auto;
+  height: auto;
+  background-color: #EC9E76;
+  transition: all 0.5s; }
+  
+nav ul {
+    list-style-type: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: center; 
+  
+  li{
+    &:hover {
+      background-color: #EC9E76;
+      width: 100%;
+      transition: all 0.5s; 
+    }
+    
+    a {
+      color: #FEF4E1;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 1.5rem; 
+    }      
+  }
+}
+

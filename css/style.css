@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,600;1,600&display=swap");
+* {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0; }
+
+#logo {
+  width: 10rem; }
+
+/*-------------------- BODY --------------------*/
+body {
+  background-image: url(../img/kohaifondo.png);
+  background-attachment: fixed;
+  background-size: 48rem; }
+  body #error404 {
+    width: 100%; }
+
+/*-------------------- NAVBAR --------------------*/
+.aLogo:hover {
+  width: auto;
+  height: auto;
+  background-color: #EC9E76;
+  transition: all 0.5s; }
+
+nav ul {
+  list-style-type: none;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  text-align: center; }
+  nav ul li:hover {
+    background-color: #EC9E76;
+    width: 100%;
+    transition: all 0.5s; }
+  nav ul li a {
+    color: #FEF4E1;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5rem; }
+
+/*-------------------- MAIN --------------------*/
+main {
+  width: 100%;
+  text-align: center;
+  padding: 4rem;
+  margin: 0;
+  background-color: #FEF4E1; }
+  main h1 {
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 3rem; }
+  main h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem; }
+  main h4 {
+    font-size: 4rem; }
+  main p {
+    text-align: justify;
+    font-size: 1.7rem;
+    padding: 2rem 0;
+    margin: 0; }
+  main .lissie {
+    box-shadow: 2px 2px 16px 2px #EC9E76; }
+  main .casos {
+    box-shadow: 0px 2px 8px #FEC99B; }
+
+/*-------------------- TIENDA --------------------*/
+.precio {
+  font-size: 2rem; }
+
+#carrito legend {
+  font-size: 3rem; }
+
+#carrito label {
+  font-size: 2rem; }
+
+#carrito select {
+  font-size: 1.5rem; }
+
+#carrito #pagar {
+  font-size: 3rem; }
+
+#infoEnvio legend {
+  font-size: 3rem; }
+
+#infoEnvio label {
+  font-size: 2rem; }
+
+#infoEnvio input {
+  font-size: 2rem; }
+
+#localidad {
+  font-size: 1.5rem; }
+
+#mapa {
+  width: 100%; }
+
+/*-------------------- PREGUNTAS FRECUENTES --------------------*/
+.fontColor, .respuesta {
+  color: #CF7741; }
+
+#pregFrec article {
+  margin: 0 0 6rem 0; }
+
+.respuesta {
+  font-style: italic;
+  font-weight: 600; }
+
+/*-------------------- CONTACTO --------------------*/
+#contacto label {
+  font-size: 2rem; }
+
+#contacto input {
+  font-size: 1.5rem; }
+
+#contacto textarea {
+  font-size: 1.5rem; }
+
+/*-------------------- FOOTER --------------------*/
+footer {
+  background-color: #CF7741;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  footer h3 {
+    margin: 0rem 4rem;
+    color: #FEF4E1; }
+    footer h3:hover {
+      animation-duration: 1s;
+      animation-name: footerSkew;
+      animation-iteration-count: infinite; }
+
+@keyframes footerSkew {
+  0% {
+    transform: skewY(-2deg); }
+  50% {
+    transform: skewY(2deg); }
+  100% {
+    transform: skewY(-2deg); } }
+  footer .redes {
+    margin: 0rem 3.5rem; }
+    footer .redes a {
+      text-decoration: none;
+      list-style-type: none;
+      margin-left: 0.5rem;
+      margin-right: 0.5rem; }
+    footer .redes img {
+      width: 3rem;
+      height: 3rem;
+      margin-top: 1rem;
+      margin-bottom: 1rem; }
+      footer .redes img:hover {
+        transform: scale(1.5);
+        margin-left: 1rem;
+        margin-right: 1rem;
+        transition: all 0.5s; }
+
+/*-------------------- 768px --------------------*/
+@media (min-width: 768px) {
+  nav ul li:hover {
+    width: auto;
+    height: auto; }
+  nav ul li a {
+    margin: 4rem 1rem;
+    font-size: 2rem; }
+  #logo {
+    width: 12rem; }
+  main h1 {
+    font-size: 3rem; }
+  main h2 {
+    font-size: 3rem; }
+  main h4 {
+    font-size: 5rem; }
+  main p {
+    font-size: 2rem; }
+  .precio {
+    font-size: 2.5rem; }
+  #carrito legend {
+    font-size: 3.5rem; }
+  #carrito label {
+    font-size: 2.5rem; }
+  #carrito select {
+    font-size: 2rem; }
+  #carrito #pagar {
+    font-size: 4rem; }
+  #infoEnvio legend {
+    font-size: 3.5rem; }
+  #infoEnvio label {
+    font-size: 2.5rem; }
+  #infoEnvio input {
+    font-size: 2rem; }
+  #localidad {
+    font-size: 1.8rem; }
+  #contacto label {
+    font-size: 2.5rem; }
+  #contacto input {
+    font-size: 2rem; }
+  #contacto textarea {
+    font-size: 2rem; }
+  footer h3 {
+    font-size: 2.3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem; }
+  footer .redes img {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem; }
+  /*-------------------- 1200px --------------------*/ }
+
+@media (min-width: 768px) and (min-width: 1200px) {
+  nav ul li a {
+    margin: 4.9rem 2rem;
+    font-size: 2.5rem; }
+  #logo {
+    width: 14rem; }
+  footer h3 {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem; }
+  footer .redes img {
+    width: 4rem;
+    height: 4rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem; }
+  main h1 {
+    font-size: 3.5rem; }
+  main h2 {
+    font-size: 3.5rem; }
+  main h4 {
+    font-size: 6rem; }
+  main p {
+    font-size: 2.5rem; }
+  .precio {
+    font-size: 3rem; }
+  #carrito legend {
+    font-size: 4rem; }
+  #carrito label {
+    font-size: 2.7rem; }
+  #carrito select {
+    font-size: 2.5rem; }
+  #carrito #pagar {
+    font-size: 4rem; }
+  #infoEnvio legend {
+    font-size: 4rem; }
+  #infoEnvio label {
+    font-size: 2.7rem; }
+  #infoEnvio input {
+    font-size: 2.5rem; }
+  #localidad {
+    font-size: 2rem; }
+  #contacto label {
+    font-size: 3rem; }
+  #contacto input {
+    font-size: 2.5rem; }
+  #contacto textarea {
+    font-size: 2.5rem; } }

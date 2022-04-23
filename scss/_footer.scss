@@ -1,0 +1,49 @@
+/*-------------------- FOOTER --------------------*/
+footer {
+    background-color: #CF7741;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+  
+  h3 {
+    margin: 0rem 4rem;
+    color: #FEF4E1;
+    &:hover {
+      animation-duration: 1s;
+      animation-name: footerSkew;
+      animation-iteration-count: infinite; }
+    }
+    @keyframes footerSkew {
+      0% {
+        transform: skewY(-2deg); }
+      50% {
+        transform: skewY(2deg); }
+      100% {
+        transform: skewY(-2deg); } 
+  }
+  
+  .redes {
+    margin: 0rem 3.5rem; 
+  
+    a {
+      text-decoration: none;
+      list-style-type: none;
+      margin-left: 0.5rem;
+      margin-right: 0.5rem; }
+    
+    img {
+      width: 3rem;
+      height: 3rem;
+      margin-top: 1rem;
+      margin-bottom: 1rem; 
+      &:hover {
+        transform: scale(1.5);
+        margin-left: 1rem;
+        margin-right: 1rem;
+        transition: all 0.5s; }
+    }
+  }
+}

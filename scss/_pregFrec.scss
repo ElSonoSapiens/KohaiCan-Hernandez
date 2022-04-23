@@ -1,0 +1,11 @@
+/*-------------------- PREGUNTAS FRECUENTES --------------------*/
+.fontColor {
+    color: #CF7741; }
+  
+  #pregFrec article {
+    margin: 0 0 6rem 0; }
+  
+  .respuesta {
+    @extend .fontColor;
+    font-style: italic ;
+    font-weight: 600; }

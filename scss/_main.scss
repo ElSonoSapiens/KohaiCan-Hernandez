@@ -1,0 +1,37 @@
+/*-------------------- MAIN --------------------*/
+main {
+    width: 100%;
+    text-align: center;
+    @include p-m(4rem,0);
+    background-color: #FEF4E1; 
+  
+  h1 {
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: bold; 
+    margin-bottom: 3rem;
+  }
+
+  h2 {
+    font-size: 2.5rem; 
+    margin-bottom: 1.5rem;}
+  
+  h4 {
+    font-size: 4rem; }
+  
+  p {
+    text-align: justify;
+    font-size: 1.7rem;
+    @include p-m(2rem 0,0)
+  }
+  
+  .lissie{
+    box-shadow: map-get($map: $shadow, $key: "sh2");
+    }
+  .casos{
+    box-shadow: map-get($map: $shadow, $key: "sh1");
+    }
+
+
+
+}

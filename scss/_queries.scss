@@ -1,0 +1,137 @@
+/*-------------------- 768px --------------------*/
+@media (min-width: 768px) {
+  nav ul li{
+    &:hover {
+    width: auto;
+    height: auto; }
+    a {
+      margin: 4rem 1rem ;
+      font-size: 2rem; }
+  }
+  #logo {
+      width: 12rem; }
+  main{ 
+    h1 {
+      font-size: 3rem; }
+    h2 {
+      font-size: 3rem; }
+    h4 {
+      font-size: 5rem; }   
+    p {
+      font-size: 2rem; }        
+  }
+  .precio{
+    font-size: 2.5rem;
+  }
+  #carrito {
+    legend {
+      font-size: 3.5rem; }
+    label {
+      font-size: 2.5rem; }
+    select {
+      font-size: 2rem; }
+    #pagar{
+      font-size: 4rem;} 
+  }
+  #infoEnvio{
+    legend {
+      font-size: 3.5rem; }
+    label {
+      font-size: 2.5rem; }
+    input {
+      font-size: 2rem; }
+  }
+  #localidad {
+    font-size: 1.8rem; 
+  }  
+  #contacto {
+    label{
+        font-size: 2.5rem; }
+    input{
+      font-size: 2rem; }
+    textarea{
+        font-size: 2rem; }
+  }
+  footer{
+    h3 {
+      font-size: 2.3rem;
+      margin-top: 1rem;
+      margin-bottom: 1rem; 
+    }
+    .redes img {
+      width: 3.5rem;
+      height: 3.5rem;
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem; 
+    }
+}
+
+/*-------------------- 1200px --------------------*/
+@media (min-width: 1200px) {
+  nav ul li a {
+    margin: 4.9rem 2rem ;
+    font-size: 2.5rem; 
+  }
+  #logo {
+    width: 14rem; 
+  }
+  footer {
+    h3 {
+      font-size: 2.5rem;
+      margin-top: 1rem;
+      margin-bottom: 1rem; 
+    }
+    .redes img {
+      width: 4rem;
+      height: 4rem;
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem; 
+    }
+  }
+  main{ 
+    h1 {
+      font-size: 3.5rem; }
+    h2 {
+      font-size: 3.5rem; }
+    h4 {
+      font-size: 6rem; }   
+    p {
+      font-size: 2.5rem; } 
+  }
+  .precio{
+    font-size: 3rem;
+  }
+  #carrito {
+    legend {
+      font-size: 4rem; }
+    label {
+      font-size: 2.7rem; }
+    select {
+      font-size: 2.5rem; }
+    #pagar{
+      font-size: 4rem;} 
+  }
+  #infoEnvio{ 
+    legend {
+      font-size: 4rem; }
+    label {
+      font-size: 2.7rem; }
+    input {
+      font-size: 2.5rem; }
+  }    
+  #localidad {
+    font-size: 2rem;
+  }
+  #contacto {
+    label{
+        font-size: 3rem;
+    }
+    input{
+      font-size: 2.5rem;
+    }
+    textarea{
+        font-size: 2.5rem;
+    }
+  }
+}
+}

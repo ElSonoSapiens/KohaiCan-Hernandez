@@ -1,0 +1,18 @@
+@mixin reset($fsize, $marging, $padding){
+    font-size: $fsize;
+    margin: $marging;
+    padding: $padding;
+}
+
+@mixin p-m($padding, $margin){
+    padding: $padding;
+    margin: $margin;
+}
+
+$shadow:(
+    "sh1":0px 2px 8px #FEC99B,
+    "sh2": 2px 2px 16px 2px #EC9E76,
+    "sh3": 2px 2px 4px #CF7741,
+    "sh4": 2px 2px 4px #FEF4E1,
+);
+
